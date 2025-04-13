@@ -37,3 +37,5 @@ function greetTheUser(){
    alert("helloooo User")
   
 }
+
+document.getElementById = ("img").onclick = 
