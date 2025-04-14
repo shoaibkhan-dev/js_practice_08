@@ -41,29 +41,46 @@ function greetTheUser(){
 document.getElementById = ("img").onclick = ;
 
 
-let day = "saturday";
+// let day = "saturday";
+// switch(day){
+//    case  "monday":
+//    console.log("A working day");
+//    break;
+//    case  "tuesday":
+//    console.log("A normal day");
+//    case "sunday":
+//    console.log("A hodiday");
+//    break;
+//    default:
+//       console.log("invalid data");
+//       alert("leave me alone")
+// }
+
+
+// function increment(){
+//    console.log(10 * 10)
+// }
+// increment()
+
+// function decrement(){
+//    console.log(10 + 10)
+// }
+// decrement();
+
+const day = 4;
 switch(day){
-   case  "monday":
-   console.log("A working day");
-   break;
-   case  "tuesday":
-   console.log("A normal day");
-   case "sunday":
-   console.log("A hodiday");
-   break;
+   case 1:
+      console.log("monday");
+    break
+   case 2:
+      console.log("tuesday");
+    break
+   case 3:
+      console.log("wednesday");
+    break
+   case 4:
+      console.log("thursday");
+    break
    default:
-      console.log("invalid data");
-      alert("leave me alone")
+      console.log("not in list");
 }
-
-
-function increment(){
-   console.log(10 * 10)
-}
-increment()
-
-function decrement(){
-   console.log(10 + 10)
-}
-decrement()
-
