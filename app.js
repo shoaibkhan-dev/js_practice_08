@@ -1,20 +1,20 @@
 
 
-// const person = {
-//     name : "shoaib",
-//     age : 23,
-//     nationality : "Pakistani",
-//     welcomeMessage : function(){
-//       console.log(`${this.name}`)
-//     }
-// }
+const person = {
+    name : "shoaib",
+    age : 23,
+    nationality : "Pakistani",
+    welcomeMessage : function(){
+      console.log(`${this.name}`)
+    }
+}
 
-// console.log(person["nationality"])
-// person.age = 25;
-// console.log(person.age);
-// Object.freeze
-// person.age = 29;
-// console.log(person.age)
+console.log(person["nationality"])
+person.age = 25;
+console.log(person.age);
+Object.freeze
+person.age = 29;
+console.log(person.age)
 
 function Car (color, model, year){
      this.color = color;
@@ -38,4 +38,32 @@ function greetTheUser(){
   
 }
 
-document.getElementById = ("img").onclick = 
+document.getElementById = ("img").onclick = ;
+
+
+let day = "saturday";
+switch(day){
+   case  "monday":
+   console.log("A working day");
+   break;
+   case  "tuesday":
+   console.log("A normal day");
+   case "sunday":
+   console.log("A hodiday");
+   break;
+   default:
+      console.log("invalid data");
+      alert("leave me alone")
+}
+
+
+function increment(){
+   console.log(10 * 10)
+}
+increment()
+
+function decrement(){
+   console.log(10 + 10)
+}
+decrement()
+
